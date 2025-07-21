@@ -38,14 +38,7 @@ Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 20
 
 ---
-```bash
 
-🧪 ## **Langkah Pengujian**
-Hubungkan PC1 ke port fa0/1 dan PC2 ke fa0/2
-Masukkan IP statis di masing-masing PC
 
-Lakukan ping:
-Dari PC1: ping 192.168.20.10
-Ping dari PC1 ke PC2 akan gagal, karena berbeda VLAN tanpa router
+# **Langkah Pengujian**
 
-Komunikasi baru akan terjadi jika kamu konfigurasi Inter-VLAN Routing
