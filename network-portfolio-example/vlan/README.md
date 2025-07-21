@@ -19,7 +19,7 @@
 
 ---
 
-## ⚙️ Konfigurasi VLAN pada Switch
+# ⚙️ Konfigurasi VLAN pada Switch
 
 ```bash
 Switch> enable
@@ -39,8 +39,7 @@ Switch(config-if)# switchport access vlan 20
 
 ---
 
-🧪 Langkah Pengujian
-
+🧪 **Langkah Pengujian**
 Hubungkan PC1 ke port fa0/1 dan PC2 ke fa0/2
 Masukkan IP statis di masing-masing PC
 
