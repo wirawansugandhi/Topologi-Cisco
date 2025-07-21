@@ -46,3 +46,38 @@ Switch(config-vlan)#exit
 Switch(config)#interface fa0/1
 Switch(config-if)#switchport mode trunk
 Switch(config-vlan)#exit
+
+---
+
+⚙️ Konfigurasi Router
+
+Router>enable
+Router#configure terminal
+Router(config)#interface g0/0
+Router(config-if)#no shutdown
+Router(config)#exit
+
+Router(config)#interface g0/0.10
+Router(config)-subif#encapsulation dot1Q 10
+Router(config-subif)#ip address 192.168.10.1 255.255.255.0
+Router(config)#exit
+
+Router(config)#interface g0/0.20
+Router(config-subif)#encapsulation dot1Q 20
+Router(config-subif)#ip address 192.168.20.1 255.255.255.0
+
+
+🧪 **Langkah Pengujian**
+Hubungkan PC1 ke fa0/1, PC2 ke fa0/2, dan router ke fa0/24
+
+Masukkan IP dan gateway di masing-masing PC
+
+Ping dari PC1 ke PC2:
+
+ping 192.168.20.10
+Harus sukses
+
+📌 Catatan
+Port trunk penting untuk mengangkut banyak VLAN ke router
+
+Sub-interface harus sesuai dengan ID VLAN
