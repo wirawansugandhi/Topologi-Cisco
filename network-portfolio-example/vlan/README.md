@@ -38,8 +38,9 @@ Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 20
 
 ---
+```bash
 
-🧪 **Langkah Pengujian**
+🧪 ## **Langkah Pengujian**
 Hubungkan PC1 ke port fa0/1 dan PC2 ke fa0/2
 Masukkan IP statis di masing-masing PC
 
