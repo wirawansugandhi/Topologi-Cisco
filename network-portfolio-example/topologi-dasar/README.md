@@ -2,7 +2,7 @@
 
 **Deskripsi Topologi:**
 - 1 Switch
-- 2 PC (PC1 dan PC2)
+- 2 PC (PC0 dan PC1)
 - Terhubung dalam satu LAN menggunakan kabel straight
 
 **Tujuan:**
@@ -15,8 +15,8 @@
 
 | Perangkat | IP Address     | Subnet Mask       |
 |-----------|----------------|-------------------|
-| PC1       | 192.168.10.1   | 255.255.255.0     |
-| PC2       | 192.168.10.2   | 255.255.255.0     |
+| PC0       | 192.168.10.1   | 255.255.255.0     |
+| PC1       | 192.168.10.2   | 255.255.255.0     |
 
 > Gateway tidak perlu diisi karena tidak ada router
 
@@ -27,7 +27,7 @@
 1. Hubungkan kedua PC ke switch pada port yang berbeda
 2. Klik masing-masing PC → Desktop → IP Configuration
    - Masukkan IP dan Subnet sesuai tabel
-3. Uji koneksi dari PC1 ke PC2:
+3. Uji koneksi dari PC0 ke PC1:
    ```bash
    ping 192.168.10.2
    ```
