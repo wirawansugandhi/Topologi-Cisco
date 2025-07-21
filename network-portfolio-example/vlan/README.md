@@ -1,9 +1,38 @@
-## VLAN
+# 🧷 Topologi VLAN - Switch Layer 2
 
-**Deskripsi:**
+**Deskripsi Topologi:**
 - 1 Switch
-- 2 PC
-- VLAN 10 & 20
+- 2 PC (PC1 dan PC2)
+- PC1 berada di VLAN 10, PC2 berada di VLAN 20
+- Tujuan: Memisahkan broadcast domain antar pengguna
 
-**Tujuan:**
-- Memisahkan broadcast domain menggunakan VLAN.
+---
+
+## 💻 Konfigurasi IP
+
+| Perangkat | IP Address     | VLAN | Subnet Mask     |
+|-----------|----------------|------|------------------|
+| PC1       | 192.168.10.10  | 10   | 255.255.255.0    |
+| PC2       | 192.168.20.10  | 20   | 255.255.255.0    |
+
+> Gateway tidak perlu diisi karena belum ada router
+
+---
+
+## ⚙️ Konfigurasi VLAN pada Switch
+
+```bash
+Switch> enable
+Switch# configure terminal
+Switch(config)# vlan 10
+Switch(config-vlan)# name HR
+Switch(config)# vlan 20
+Switch(config-vlan)# name IT
+
+Switch(config)# interface fa0/1
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan 10
+
+Switch(config)# interface fa0/2
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan 20
