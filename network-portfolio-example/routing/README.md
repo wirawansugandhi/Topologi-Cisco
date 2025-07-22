@@ -2,9 +2,11 @@
 ```markdown
 # Konfigurasi Jaringan Dasar dengan Static Routing di Cisco Packet Tracer
 
-Repositori ini berisi panduan lengkap untuk mengkonfigurasi jaringan sederhana menggunakan Cisco Packet Tracer. Topologi ini terdiri dari dua jaringan lokal (LAN) yang dihubungkan oleh dua router menggunakan metode **Static Routing**.
+Repositori ini berisi panduan lengkap untuk mengkonfigurasi jaringan sederhana menggunakan Cisco Packet Tracer.
+Topologi ini terdiri dari dua jaringan lokal (LAN) yang dihubungkan oleh dua router menggunakan metode **Static Routing**.
 
-Tujuan utama dari konfigurasi ini adalah untuk memungkinkan semua perangkat, terutama PC dari jaringan yang berbeda, agar dapat saling berkomunikasi.
+Tujuan utama dari konfigurasi ini adalah untuk memungkinkan semua perangkat,
+terutama PC dari jaringan yang berbeda, agar dapat saling berkomunikasi.
 
 ## Topologi Jaringan
 
@@ -31,7 +33,8 @@ Tujuan utama dari konfigurasi ini adalah untuk memungkinkan semua perangkat, ter
 
 ### 1. Konfigurasi IP pada PC
 
-Konfigurasikan setiap PC dengan IP Address, Subnet Mask, dan Default Gateway sesuai dengan tabel pengalamatan di atas. Default Gateway adalah alamat IP dari interface router yang terhubung ke jaringan lokal PC tersebut.
+Konfigurasikan setiap PC dengan IP Address, Subnet Mask, dan Default Gateway sesuai dengan tabel pengalamatan di atas.
+Default Gateway adalah alamat IP dari interface router yang terhubung ke jaringan lokal PC tersebut.
 
 ### 2. Konfigurasi Interface Router
 
