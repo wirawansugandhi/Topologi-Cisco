@@ -1,5 +1,3 @@
-
-```markdown
 # Konfigurasi Jaringan Dasar dengan Static Routing di Cisco Packet Tracer
 
 Repositori ini berisi panduan lengkap untuk mengkonfigurasi jaringan sederhana menggunakan Cisco Packet Tracer. Topologi ini terdiri dari dua jaringan lokal (LAN) yang dihubungkan oleh dua router menggunakan metode **Static Routing**.
