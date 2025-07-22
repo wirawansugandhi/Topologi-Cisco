@@ -1,6 +1,3 @@
-Tentu, ini adalah konten lengkap yang bisa Anda salin dan tempel ke dalam file bernama `README.md` untuk diunggah ke GitHub.
-
-Salin semua teks di dalam blok di bawah ini.
 
 ```markdown
 # Konfigurasi Jaringan Dasar dengan Static Routing di Cisco Packet Tracer
