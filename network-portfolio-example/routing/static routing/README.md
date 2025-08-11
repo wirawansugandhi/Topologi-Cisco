@@ -21,9 +21,6 @@ Tujuan utama dari konfigurasi ini adalah untuk memungkinkan semua perangkat, ter
 | PC3       | Fa0       | `192.168.100.11`| `255.255.255.0` | `192.168.100.2` |
 | PC4       | Fa0       | `192.168.100.22`| `255.255.255.0` | `192.168.100.2` |
 
-## Prasyarat
-
-*   Perangkat lunak **Cisco Packet Tracer** sudah terinstal.
 
 ## Langkah-langkah Konfigurasi
 
