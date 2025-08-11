@@ -36,10 +36,6 @@
    Reply from 192.168.10.2: bytes=32 time<1ms TTL=128
    ```
 
----
-
-## 🗂️ File Simulasi
-- `topologi-switch.pkt` (bisa dibuat menggunakan Cisco Packet Tracer)
 
 ---
 
