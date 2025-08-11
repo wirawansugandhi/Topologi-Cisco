@@ -9,8 +9,6 @@ Setiap VLAN merepresentasikan lantai berbeda pada gedung perusahaan.
 - Mengaktifkan **DHCP Server** di router untuk memberikan IP otomatis.
 - Memastikan komunikasi antar VLAN berjalan dengan baik.
 
-## 🖥 Topologi
-![Topology](Topology.png)
 
 **Keterangan VLAN:**
 - **VLAN 10 (Lantai 1):** `192.168.10.0/24` (Merah)
