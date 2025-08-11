@@ -125,13 +125,7 @@ interface fa0/1
 3. Lakukan **ping antar VLAN** untuk memastikan routing berjalan.
 4. Periksa lease DHCP dengan perintah `show ip dhcp binding` di router.
 
-## 📂 Struktur Folder
-```
-/DHCP-Server-Cisco-Network
-│── DHCP_Server.pkt    # File Packet Tracer
-│── Topology.png       # Gambar topologi
-│── README.md          # Dokumentasi proyek
-```
+
 
 ## 📌 Catatan
 - Pastikan port trunk dari switch ke router sudah dikonfigurasi dengan benar.
